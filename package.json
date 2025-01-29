@@ -3,7 +3,6 @@
   "name": "bark-github-action",
   "version": "1.0.0",
   "description": "GitHub Action for sending notifications to Bark",
-  "type": "module",
   "private": true,
   "main": "lib/src/index.js",
   "files": [
@@ -15,7 +14,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky install",
-    "package": "ncc build lib/index.js --source-map --license licenses.txt"
+    "package": "ncc build lib/index.js --source-map --license licenses.txt --minify"
   },
   "repository": "https://github.com/chimpdev/bark.js.git",
   "bugs": {
