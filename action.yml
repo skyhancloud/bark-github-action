@@ -1,0 +1,62 @@
+name: "bark-action"
+description: "GitHub Action for sending notifications to Bark"
+author: "chimpdev"
+inputs:
+  device_key:
+    description: "The device key for the Bark server."
+    required: true
+  server_url:
+    description: "The URL of the Bark server."
+    required: true
+  title:
+    description: "The title of the push notification."
+    required: false
+  body:
+    description: "The content of the push notification."
+    required: true
+  subtitle:
+    description: "The subtitle of the push notification."
+    required: false
+  badge:
+    description: "The badge number for the notification."
+    required: false
+    default: 0
+  sound:
+    description: "The sound to play with the notification."
+    required: false
+  icon:
+    description: "The icon URL for the notification. (Must be a .jpg file)"
+    required: false
+  group:
+    description: "The group name for grouping messages."
+    required: false
+  url:
+    description: "The URL to open when the notification is clicked."
+    required: false
+  level:
+    description: "The level of the notification. (Must be one of `critical`, `active`, `timeSensitive`, `passive`)"
+    required: false
+  volume:
+    description: "The volume of the notification. (Must be between 0 and 10)"
+    required: false
+  is_archive:
+    description: "Whether to archive the notification."
+    required: false
+  copy:
+    description: "Custom text to copy when the notification is copied."
+    required: false
+  auto_copy:
+    description: "Whether to auto-copy the notification."
+    required: false
+  call:
+    description: "Whether to repeat the ringtone on click."
+    required: false
+  action:
+    description: "Action to perform when the notification is clicked. (Must be `none`)"
+    required: false
+runs:
+  using: "node20"
+  main: "dist/index.js"
+branding:
+  icon: bell
+  color: red
