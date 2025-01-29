@@ -21,9 +21,9 @@ steps:
     with:
         device_key: ${{ secrets.BARK_KEY }}
         server_url: ${{ secrets.BARK_SERVER_URL }}
-        title: 'Action {{ github.event_name }}'
-        body: 'Workflow {{ github.workflow }} has completed with status {{ job.status }}.'
-        url: '{{ github.server_url }}/{{ github.repository }}/actions/runs/{{ github.run_id }}'
+        title: 'Action ${{ github.event_name }}'
+        body: 'Workflow ${{ github.workflow }} has completed with status ${{ job.status }}.'
+        url: '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
     if: always() # Run this step regardless of the outcome of previous steps
 ```
 
