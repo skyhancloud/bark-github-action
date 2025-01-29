@@ -1,4 +1,4 @@
-name: "bark-action"
+name: "bark-github-action"
 description: "GitHub Action for sending notifications to Bark"
 author: "chimpdev"
 inputs:

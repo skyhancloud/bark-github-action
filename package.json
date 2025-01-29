@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "bark-action",
+  "name": "bark-github-action",
   "version": "1.0.0",
   "description": "GitHub Action for sending notifications to Bark",
   "type": "module",
