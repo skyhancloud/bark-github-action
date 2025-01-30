@@ -15,8 +15,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       '@thiskyhan/bark.js':
-        specifier: ^2.0.4
-        version: 2.0.4
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.5.0
@@ -270,8 +270,8 @@ packages:
   '@octokit/types@13.7.0':
     resolution: {integrity: sha512-BXfRP+3P3IN6fd4uF3SniaHKOO4UXWBfkdR3vA8mIvaoO/wLjGN5qivUtW0QRitBHHMcfC41SLhNVYIZZE+wkA==}
 
-  '@thiskyhan/bark.js@2.0.4':
-    resolution: {integrity: sha512-wfrgeoDKZTmL7Tahqo3bceUz/gNjTFTnLDTzjQvbMc+gwF8cRbekbhUM/Ety8sxApL9V5MSMi4Y41UlNbi9Jwg==}
+  '@thiskyhan/bark.js@3.0.0':
+    resolution: {integrity: sha512-SE726z5hGFlBZnwx8xvWIrtrhVIdt6Wz9UtNYj/VDnjpFzfo/15y9xBo0/wfwUFmVVVKDgxggxQi9RUEk64GZw==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -1298,7 +1298,7 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 23.0.1
 
-  '@thiskyhan/bark.js@2.0.4':
+  '@thiskyhan/bark.js@3.0.0':
     dependencies:
       axios: 1.7.9
     transitivePeerDependencies:
