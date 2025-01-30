@@ -17,7 +17,7 @@ Allow GitHub Actions to push iOS notifications via Bark.
 
 ```yaml
 steps:
-  - uses: chimpdev/bark-github-action@v3.0.0
+  - uses: chimpdev/bark-github-action@v1.0.0
     with:
         device_key: ${{ secrets.BARK_KEY }}
         server_url: ${{ secrets.BARK_SERVER_URL }}
