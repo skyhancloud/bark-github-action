@@ -48,7 +48,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0",
-    "@thiskyhan/bark.js": "^2.0.4"
+    "@thiskyhan/bark.js": "^3.0.0"
   },
   "commitlint": {
     "extends": [
