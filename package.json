@@ -16,9 +16,9 @@
     "prepare": "husky install",
     "package": "ncc build lib/index.js --source-map --license licenses.txt --minify"
   },
-  "repository": "https://github.com/chimpdev/bark.js.git",
+  "repository": "https://github.com/skyhancloud/bark.js.git",
   "bugs": {
-    "url": "https://github.com/chimpdev/bark.js/issues"
+    "url": "https://github.com/skyhancloud/bark.js/issues"
   },
   "contributors": [
     "chimpdev <skyhancloud@gmail.com>"
