@@ -20,9 +20,6 @@
   "bugs": {
     "url": "https://github.com/skyhancloud/bark.js/issues"
   },
-  "contributors": [
-    "chimpdev <skyhancloud@gmail.com>"
-  ],
   "license": "GPL-3.0-only",
   "keywords": [
     "actions",
