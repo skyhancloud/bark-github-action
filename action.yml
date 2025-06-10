@@ -1,6 +1,6 @@
 name: "bark-github-action"
 description: "GitHub Action for sending notifications to Bark"
-author: "chimpdev"
+author: "skyhancloud"
 inputs:
   device_key:
     description: "The device key for the Bark server."
