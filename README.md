@@ -17,7 +17,7 @@ Allow GitHub Actions to push iOS notifications via Bark.
 
 ```yaml
 steps:
-  - uses: chimpdev/bark-github-action@v1.0.0
+  - uses: skyhancloud/bark-github-action@v1.0.0
     with:
         device_key: ${{ secrets.BARK_KEY }}
         server_url: ${{ secrets.BARK_SERVER_URL }}
@@ -62,7 +62,7 @@ Please make sure to follow the [Code of Conduct](.github/CODE_OF_CONDUCT.md) and
 
 ## Help
 
-If you encounter any issues with the Lantern or have any questions, feel free to [open an issue](https://github.com/chimpdev/bark.js/issues) on this repository. We'll do our best to assist you!
+If you encounter any issues with the Lantern or have any questions, feel free to [open an issue](https://github.com/skyhancloud/bark.js/issues) on this repository. We'll do our best to assist you!
 
 ## License
 
@@ -71,4 +71,4 @@ This project is licensed under [The GNU General Public License v3.0](LICENSE).
 ## Acknowledgements
 
 - [Bark](https://github.com/Finb/bark) - The iOS App for push notifications
-- [Bark.js](https://github.com/chimpdev/bark.js) - The JavaScript library for sending notifications
+- [Bark.js](https://github.com/skyhancloud/bark.js) - The JavaScript library for sending notifications
